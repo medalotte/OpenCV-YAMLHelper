@@ -1,0 +1,3 @@
+example/build/*
+example/.ccls-cache/*
+example/compile_commands.json

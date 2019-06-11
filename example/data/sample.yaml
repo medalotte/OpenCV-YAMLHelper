@@ -1,0 +1,55 @@
+%YAML:1.2
+---
+Hello: "Hello"
+
+A:
+  nest: "A"
+  B:
+    nest: "AB"
+    C:
+      nest: "ABC"
+      D:
+        nest: "ABCD"
+        E:
+          nest: "ABCDE"
+
+cvMat: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [ 1.0,  0.0,  0.0,
+          0.0,  1.0,  0.0,
+          0.0,  0.0,  1.0]
+
+Points:
+  num: 5
+  Point0:
+    x: 0.0
+    y: 3.0
+  Point1:
+    x: 0.1
+    y: 3.1
+  Point2:
+    x: 0.2
+    y: 3.2
+  Point3:
+    x: 0.3
+    y: 3.3
+  Point4:
+    x: 0.4
+    y: 3.4
+
+IntParams:
+  A: 10
+  B: 20
+  C: 30
+
+DoubleParams:
+  A: 0.1
+  B: 0.2
+  C: 0.3
+
+StrParams:
+  A: "One"
+  B: "Two"
+  C: "Three"

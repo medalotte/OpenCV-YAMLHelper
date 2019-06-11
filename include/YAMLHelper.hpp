@@ -77,7 +77,7 @@ namespace cvlib {
         }
 
         /**
-         *  Interface class for reading data as struct from YAML files
+         *  Base class for reading data as struct from YAML files
          *  e.g.
          *  --------------------------------------------------------
          *  %YAML:1.2

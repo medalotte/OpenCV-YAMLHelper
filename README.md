@@ -7,11 +7,23 @@ minimal header-only library that can read YAML files using YAML parser implement
 
 ## Requirement
 - OpenCV **3.0** or higher
-- CMake **3.0** or higher
 - A C++ compiler with **C++14** or higher support
+- CMake **3.0** or higher (for compiling example program)
 
 ## Usage
-Please read `include/YAMLHelper.hpp` and example program
+Please read `include/YAMLHelper.hpp` and source code of example program
+
+### Example Program
+The program can be run with following commands
+
+``` sh
+$ git clone git@github.com:kyk0910/OpenCV-YAMLHelper.git
+$ cd OpenCV-YAMLHelper/example
+$ mkdir build && cd build
+$ cmake ..
+$ make
+$ ./example
+```
 
 ## License
 MIT

@@ -1,5 +1,5 @@
 # OpenCV-YAMLHelper
-minimal header-only library that can read YAML files using YAML parser implemented on OpenCV
+Minimal header-only library that can read YAML files using YAML parser implemented on OpenCV
 
 - You can read easily data that written in YAML files
     - You do **NOT** have to deal with cv::FileStorage and cv::FileNode directly

@@ -100,8 +100,8 @@ namespace cvlib {
          *  int main() {
          *      Hoge hoge;
          *      cvlib::YAMLHelper::readStruct(hoge, "./test.yaml", "piyo", "huga");
-         *      std::cout << "hoge.A : " << hoge.A << std::endl;  // 10
-         *      std::cout << "hoge.B : " << hoge.B << std::endl;  // test
+         *      std::cout << hoge.A << std::endl;  // 10
+         *      std::cout << hoge.B << std::endl;  // test
          *  }
          *  --------------------------------------------------------
          */
@@ -136,7 +136,7 @@ namespace cvlib {
                     }
                     else {
                         node = node[label];
-                   }
+                    }
 
                     cnt--;
                     if(cnt == 0) {

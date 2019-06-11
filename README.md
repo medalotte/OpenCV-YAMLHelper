@@ -1,7 +1,7 @@
 # OpenCV-YAMLHelper
-Minimal header-only library that can read YAML files using YAML parser implemented on OpenCV
+Minimal header-only library that can easily read YAML files using YAML parser implemented on OpenCV
 
-- You can read easily data that written in YAML files
+- You can easily read data that written in YAML files
     - You do **NOT** have to deal with cv::FileStorage and cv::FileNode directly
 - You can directly load data into a struct (actualy, implemented by a class)
 
@@ -11,7 +11,7 @@ Minimal header-only library that can read YAML files using YAML parser implement
 - CMake **3.0** or higher (for compiling example program)
 
 ## Usage
-Please read `include/YAMLHelper.hpp` and source code of example program
+Please read source code of example program and `include/YAMLHelper.hpp`
 
 ### Example Program
 The program can be run with following commands

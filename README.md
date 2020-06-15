@@ -17,7 +17,7 @@ Please read source code of example program and `include/YAMLHelper.hpp`
 The program can be run with following commands
 
 ``` sh
-$ git clone git@github.com:kyk0910/OpenCV-YAMLHelper.git
+$ git clone https://github.com/medalotte/OpenCV-YAMLHelper.git
 $ cd OpenCV-YAMLHelper/example
 $ mkdir build && cd build
 $ cmake ..
